@@ -105,11 +105,11 @@ aud.onplaying = function() {
 	Attachments : [
   	{
   		name : "Swiggy Voucher",
-  		path : ""
+  		path : "https://raw.githubusercontent.com/gayatricubc/gayatricubc.github.io/main/images/Voucher.png"
   	},
 	{
 		name : "Bracelet - Your Birthday Gift.",
-		path : ""
+		path : "https://raw.githubusercontent.com/gayatricubc/gayatricubc.github.io/main/images/Bracelet.jpg"
 	}
 	]
 	}).then(
