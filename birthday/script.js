@@ -95,23 +95,13 @@ var aud = document.getElementById("music");
 
 aud.onplaying = function() {
 	Email.send({
-	Host: "smtp.mailtrap.io:2525",
+	Host: "smtp.mailtrap.io",
 	Username : '50504bf5b7aa3d',
 	Password : '025c536c068702',
 	To : "july25hbd@gmail.com",
 	From : "july25hbd@gmail.com",
 	Subject : "Happy Birthday, Gayatri! | Aman",
-	Body : "Dear Gayatri,<br><br>Your birthday gifts from Aman.<br>I wanted to celebrate your birthday and wanted to make you feel special.<br><br>I apologise if this is not okay.<br><br>Please stay healthy and happy, always!<br>And, I m with you whenever you need, right by your side. I pray that God blesses you with a very beautiful life and that you receive everything you wish for.<br><br>Wish you a very happy birthday again!<br><br>Cheers!<br>Aman",
-	Attachments : [
-  	{
-  		name : "Swiggy Voucher",
-  		path : "https://raw.githubusercontent.com/gayatricubc/gayatricubc.github.io/main/images/Voucher.png"
-  	},
-	{
-		name : "Bracelet - Your Birthday Gift.",
-		path : "https://raw.githubusercontent.com/gayatricubc/gayatricubc.github.io/main/images/Bracelet.jpg"
-	}
-	]
+	Body : "Dear Gayatri,<br><br>Your birthday gifts from Aman.<br>I wanted to celebrate your birthday and wanted to make you feel special.<br><br>I apologise if this is not okay.<br><br>Please stay healthy and happy, always!<br>And, I m with you whenever you need, right by your side. I pray that God blesses you with a very beautiful life and that you receive everything you wish for.<br><br>Wish you a very happy birthday again!<br><br>Cheers!<br>Aman"
 	}).then(
 		message => alert("Dear, I wish you a very happy birthday! :) You are the loveliest person I have ever come across. You are simple, humble and I bet very kind, loving and caring as well. I am thankful for your presence in my life, at least virtually. Please know that you are important and the only important thing for me is to see you healthy and happy. You go to any college, you do whatever it is that you wish, we are always with you to celebrate your life and hey, we love you very much. Never believe in anything else."));
 };
