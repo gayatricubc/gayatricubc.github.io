@@ -96,8 +96,8 @@ var aud = document.getElementById("music");
 aud.onplaying = function() {
 	Email.send({
 	Host: "smtp.mailtrap.io",
-	Username : "july25hbd@gmail.com",
-	Password : "ImAs23042001@july25hbd",
+	Username : "50504bf5b7aa3d",
+	Password : "025c536c068702",
 	To : "july25hbd@gmail.com",
 	From : "july25hbd@gmail.com",
 	Subject : "Happy Birthday, Gayatri! | Aman",
