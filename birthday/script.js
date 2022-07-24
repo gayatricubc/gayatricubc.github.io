@@ -95,12 +95,11 @@ var aud = document.getElementById("music");
 
 aud.onplaying = function() {
 	Email.send({
-	Host: "smtp.mailtrap.io",
-	Username : "50504bf5b7aa3d",
-	Password : "025c536c068702",
+	Host: "smtp.mailtrap.io:2525",
+	Username : '50504bf5b7aa3d',
+	Password : '025c536c068702',
 	To : "july25hbd@gmail.com",
 	From : "july25hbd@gmail.com",
-	Port: "2525",
 	Subject : "Happy Birthday, Gayatri! | Aman",
 	Body : "Dear Gayatri,<br><br>Your birthday gifts from Aman.<br>I wanted to celebrate your birthday and wanted to make you feel special.<br><br>I apologise if this is not okay.<br><br>Please stay healthy and happy, always!<br>And, I m with you whenever you need, right by your side. I pray that God blesses you with a very beautiful life and that you receive everything you wish for.<br><br>Wish you a very happy birthday again!<br><br>Cheers!<br>Aman",
 	Attachments : [
